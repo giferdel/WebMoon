@@ -1,0 +1,2293 @@
+/* PÁGINA PRINCIPAL */
+.principal{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: rgb(8,8,19);
+}
+/* PRINCIPAL-HEADER */
+.principal header{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.principal header img{
+    width: 80vw;
+}
+.principal header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 25px;
+    color: rgb(223,182,116);
+}
+.principal header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.principal header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* PRINCIPAL-MAIN */
+.principal main{
+    margin: 0px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(./img/fondo-main.png) rgb(8,8,19);
+    background-size: cover;
+}
+.principal main article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116,0.5);
+    box-shadow: 2px 2px 5px rgb(8,8,19);
+    width: 60vw;
+    height: 15%;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 50px;
+
+}
+.principal main a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-family:"Quicksand", sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+.principal main a:active{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 12px;
+    font-family:"Quicksand", sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+/* PRINCIPAL-FOOTER */
+.principal footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.principal footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.principal footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA CAFETERÍA */
+.cafeteria{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* CAFETERÍA-HEADER */
+.cafeteria header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.cafeteria header img{
+    width: 50vw;
+}
+.cafeteria header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.cafeteria header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.cafeteria header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* CAFETERÍA-MAIN */
+.cafeteria main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.cafeteria h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.cafeteria h2{
+    margin: 10px 0px 5px 20px;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.cafeteria hr{
+    /* margin: 0px 5px 15px 20px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.cafeteria main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.cafeteria main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.cafeteria main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.cafeteria main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.cafeteria main section article img{
+    width: 40px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.cafeteria main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 18px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.cafeteria main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.cafeteria main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.cafeteria main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cafeteria .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.cafeteria .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+
+/* CAFETERIA-FOOTER */
+.cafeteria footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.cafeteria footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.cafeteria footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA PASTELERÍA */
+.pasteleria{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* PASTELERÍA-HEADER */
+.pasteleria header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.pasteleria header img{
+    width: 50vw;
+}
+.pasteleria header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.pasteleria header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.pasteleria header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* PASTELERÍA-MAIN */
+.pasteleria main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.pasteleria h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.pasteleria h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 5px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.pasteleria hr{
+    /* margin: 20px 50px 25px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.pasteleria main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.pasteleria main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.pasteleria main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.pasteleria main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.pasteleria main section article img{
+    width: 40px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.pasteleria main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.pasteleria main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.pasteleria main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.pasteleria main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.pasteleria .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.pasteleria .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* PASTELERÍA-FOOTER */
+.pasteleria footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.pasteleria footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.pasteleria footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA panaderia */
+.panaderia{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* panaderia-HEADER */
+.panaderia header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.panaderia header img{
+    width: 50vw;
+}
+.panaderia header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.panaderia header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.panaderia header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* panaderia-MAIN */
+.panaderia main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.panaderia h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.panaderia h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 5px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.panaderia hr{
+    /* margin: 10px 50px 15px 20px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.panaderia main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.panaderia main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.panaderia main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.panaderia main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.panaderia main section article img{
+    width: 40px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.panaderia main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.panaderia main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.panaderia main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.panaderia main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.panaderia .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.panaderia .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* panaderia-FOOTER */
+.panaderia footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.panaderia footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.panaderia footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA petit-gateau */
+.petit-gateau{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* petit-gateau-HEADER */
+.petit-gateau header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.petit-gateau header img{
+    width: 50vw;
+}
+.petit-gateau header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.petit-gateau header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.petit-gateau header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* petit-gateau-MAIN */
+.petit-gateau main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.petit-gateau h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.petit-gateau h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.petit-gateau hr{
+    /* margin: 10px 50px 15px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.petit-gateau main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.petit-gateau main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.petit-gateau main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.petit-gateau main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.petit-gateau main section article img{
+    width: 40px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.petit-gateau main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.petit-gateau main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.petit-gateau main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.petit-gateau main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.petit-gateau .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.petit-gateau .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* petit-gateau-FOOTER */
+.petit-gateau footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.petit-gateau footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.petit-gateau footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA BRUNCHS */
+.brunchs{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* brunchs-HEADER */
+.brunchs header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.brunchs header img{
+    width: 50vw;
+}
+.brunchs header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.brunchs header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.brunchs header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* brunchs-MAIN */
+.brunchs main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.brunchs h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.brunchs h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.brunchs hr{
+    /* margin: 10px 50px 15px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.brunchs main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.brunchs main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.brunchs main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.brunchs main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 40vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.brunchs main section article img{
+    width: 70px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.brunchs main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.brunchs main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.brunchs main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.brunchs main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.brunchs .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.brunchs .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* brunchs-FOOTER */
+.brunchs footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.brunchs footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.brunchs footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA BEBIDAS */
+.bebidas{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* bebidas-HEADER */
+.bebidas header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.bebidas header img{
+    width: 50vw;
+}
+.bebidas header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.bebidas header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.bebidas header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* bebidas-MAIN */
+.bebidas main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.bebidas h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.bebidas h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.bebidas hr{
+    /* margin: 10px 50px 15px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.bebidas main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.bebidas main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 25vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.bebidas main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.bebidas main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 40vw;
+    height: 40vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.bebidas main section article img{
+    width: 50px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.bebidas main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.bebidas main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.bebidas main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.bebidas main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.bebidas .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.bebidas .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* bebidas-FOOTER */
+.bebidas footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.bebidas footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.bebidas footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA DESAYUNO MERIENDA */
+.desayuno-merienda{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* desayuno-merienda-HEADER */
+.desayuno-merienda header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.desayuno-merienda header img{
+    width: 50vw;
+}
+.desayuno-merienda header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.desayuno-merienda header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.desayuno-merienda header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* desayuno-merienda-MAIN */
+.desayuno-merienda main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.desayuno-merienda h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.desayuno-merienda h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.desayuno-merienda hr{
+    /* margin: 10px 50px 15px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.desayuno-merienda main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.desayuno-merienda main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 25vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.desayuno-merienda main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.desayuno-merienda main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 40vw;
+    height: 30vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.desayuno-merienda main section article img{
+    width: 50px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.desayuno-merienda main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.desayuno-merienda main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.desayuno-merienda main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.desayuno-merienda main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.desayuno-merienda .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.desayuno-merienda .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* desayuno-merienda-FOOTER */
+.desayuno-merienda footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.desayuno-merienda footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.desayuno-merienda footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+/* PÁGINA ALMUERZO */
+.almuerzo{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223,182,116);
+}
+/* almuerzo-HEADER */
+.almuerzo header{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223,182,116);
+}
+.almuerzo header img{
+    width: 50vw;
+}
+.almuerzo header h2{
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0; 
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 30;
+    font-size: 10px;
+    color: rgb(87, 70, 44);
+}
+.almuerzo header .text1{
+    animation: animCafe 9s linear 0s infinite;   
+}
+@keyframes animCafe {
+        0%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0.25;
+        }
+        40%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;     
+        }
+
+}
+.almuerzo header .text2{
+    animation: animPastel 9s linear 0s infinite;   
+}
+@keyframes animPastel {
+        0%{
+            opacity: 1;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 0.25;
+        }
+        100%{
+            opacity: 1;     
+        }
+
+}
+/* almuerzo-MAIN */
+.almuerzo main{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./logo/moon-eclipse-blanco-fondo.png) rgb(223,182,116);
+    background-size: 200px;
+}
+.almuerzo h1{
+    margin: 10px;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 10px;
+    text-shadow: 2px -1px 5px rgb(87, 70, 44);
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255,255,255);
+}
+.almuerzo h2{
+    margin: 10px 0px 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    font-variant: small-caps;
+    font-weight: 10;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(87, 70, 44);
+}
+.almuerzo hr{
+    /* margin: 10px 50px 15px 50px; */
+    padding: 0;
+    border: 0.5px solid rgb(87, 70, 44);
+    width: 70vw;
+}
+.almuerzo main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+.almuerzo main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 25vw;
+    height: 20vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.almuerzo main .art-grande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 30vw;
+    height: 25vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.almuerzo main .art-extragrande article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 2px -2px 6px rgb(87, 70, 44);
+    width: 40vw;
+    height: 30vh;
+    margin: 1%;
+    padding: 0px;
+    border-radius: 5px;
+}
+.almuerzo main section article img{
+    width: 50px;
+    margin: 10px 0px 1px 0px;
+    padding: 0px 15px  5px 15px;
+    filter: drop-shadow(1px -1px 4px rgb(87, 70, 44));
+    border-bottom: 0.5px solid rgb(87, 70, 44) ;
+}
+.almuerzo main h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(15,48,38);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-variant: small-caps;
+    font-weight: 10;
+    text-align: center;
+}
+.almuerzo main section article p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 12px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+}
+.almuerzo main section article h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(8,8,19);
+    font-size: 15px;
+    margin: 5px 0px 1px 0px;
+    font-weight: 10;
+}
+
+.almuerzo main .boton-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.almuerzo .boton-nav .boton-seccionSig{
+    /* width: 90px; */
+    height: 30px;
+    border: 0px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+.almuerzo .boton-nav .boton-carta{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    background-color: transparent;
+    filter: drop-shadow(1px -1px 1px rgb(87, 70, 44));
+    a{
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 5;
+        text-decoration: none;
+    }
+}
+/* almuerzo-FOOTER */
+.almuerzo footer{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,19);
+}
+.almuerzo footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+}
+.almuerzo footer .red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(255,255,255,0.3);
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    img{
+        filter: invert(30%);
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+}
